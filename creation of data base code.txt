@@ -1,0 +1,8 @@
+#create database hospital;
+#use hospital;
+#create table doctor (doctor_id int primary key auto_increment ,d_username varchar(45),d_password varchar(45),d_name varchar (100),d_phoneNum int ,d_address varchar(100),d_sep varchar (50),d_dept varchar (45),d_gender varchar(30),d_age int ,d_join varchar (45),d_leave varchar (45));
+#create table nurse (nurse_id int primary key auto_increment,n_f_name varchar(30) not null,n_m_name varchar(30)not null,n_l_name varchar(30) not null,n_age varchar(3) ,n_phoneNum varchar(30),n_address varchar(30),n_city varchar(30),n_gender varchar(30),n_join varchar(20), n_leave varchar(20));
+#create table patient (p_id int primary key auto_increment, p_f_name varchar(30),p_m_name varchar(30),p_l_name varchar(30),p_age int,p_gender varchar(30),p_phoneNum int,p_address varchar(45),p_city varchar(45),p_dateDay varchar(30),p_dateMonth varchar(30),p_dateYear varchar(30),p_bloodType varchar(30),p_MartialStatus varchar(30));
+#drop table patient;
+#create table patient (p_id int primary key auto_increment, p_f_name varchar(30),p_m_name varchar(30),p_l_name varchar(30),p_age int,p_gender varchar(30),p_phoneNum int,p_address varchar(45),p_city varchar(45),p_dateDay varchar(30),p_dateMonth varchar(30),p_dateYear varchar(30),p_bloodType varchar(30),p_MartialStatus varchar(30),p_med varchar(300),p_note varchar(300),p_syp varchar(100),p_gen varchar(100));
+#insert into doctor(d_dept)values('Eye'),('bones'),('surgen');
